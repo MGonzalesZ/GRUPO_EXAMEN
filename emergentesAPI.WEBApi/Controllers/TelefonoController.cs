@@ -1,5 +1,14 @@
-﻿using System;
-using emergentesAPI.LN.Service;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics.Contracts;
+using System.Diagnostics;
+using System.Globalization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using emergentesAPI.LN;
+using Microsoft.EntityFrameworkCore;
 
 namespace emergentesAPI.WEBApi.Controllers
 {
