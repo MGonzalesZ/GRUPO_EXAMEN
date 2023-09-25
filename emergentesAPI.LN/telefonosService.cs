@@ -1,22 +1,32 @@
-﻿using emergentesAPI.DAL.DataContext;
 using emergentesAPI.DAL;
+using emergentesAPI.DAL.DataContext;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+ 
+
 namespace emergentesAPI.LN
 {
     public class telefonosService
     {
-<<<<<<< HEAD
-        public Telefono Crear(string nombre, string numerotelefonico)
+        private telefonosRepository _TelfRepository;
+        public telefonosService(telefonosRepository telfRepository)
         {
-            return _telefonosRepository.Agregar(nombre, numerotelefonico);
+            _TelfRepository = telfRepository;
         }
-=======
+        public void Agregar(string nombre, string numeroTelefonico)
+        {
+            _TelfRepository.Agregar(nombre, numeroTelefonico);
+        }
 
->>>>>>> ff97e3f92a9f70ce7c70b0952e732ec7a6d0403b
+ 
+
+        public void Eliminar(int id)
+        {
+            _TelfRepository.Eliminar(id);
+        }
     }
 }
