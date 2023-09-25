@@ -49,13 +49,13 @@ namespace emergentesAPI.DAL
         //}
 
 
-public List<Usuario> ObtenerTodos()
+public List<Telefonos> ObtenerTodos()
         {
             //IQueryable<Usuario> queryUsuarioSQL = _dbContext.Usuarios;
 
  
 
-            return _dbContext.Usuarios.ToList();
+            return _dbContext.Telefonos.ToList();
         }
     }
 }
