@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using emergentesAPI.DAL.DataContext;
 using Microsoft.EntityFrameworkCore;
 
 namespace emergentesAPI.ENTIDADES;
