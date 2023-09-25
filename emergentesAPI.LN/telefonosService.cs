@@ -28,13 +28,6 @@ namespace emergentesAPI.LN
         {
             _TelfRepository.Eliminar(id);
         }
-     public List<Usuario> ObtenerTodos()
-        {
-            //IQueryable<Usuario> queryUsuarioSQL = _dbContext.Usuarios;
-
- 
-
-            return _dbContext.Usuarios.ToList();
-        }
+     
     }
 }
