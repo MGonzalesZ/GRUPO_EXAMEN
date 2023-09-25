@@ -40,12 +40,10 @@ namespace emergentesAPI.WEBApi.Controllers
     public IActionResult Eliminar(int id)
     {
         var telefono = _telefonoService.ObtenerTelefonoPorId(id);
-
         if (telefono == null)
         {
             return NotFound();
         }
-
         _telefonoService.Eliminar(id);
 
         return NoContent();
