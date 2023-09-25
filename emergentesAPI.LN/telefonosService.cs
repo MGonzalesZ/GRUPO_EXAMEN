@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace emergentesAPI.LN
 {
-    internal class telefonosService
+    public class telefonosService
     {
     }
 }

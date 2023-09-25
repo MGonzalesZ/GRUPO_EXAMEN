@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace emergentesAPI.DAL
 {
-    internal class telefonosRepository
+    public class telefonosRepository
     {
     }
 }
