@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace emergentesAPI.DAL.DataContext;
 
-public partial class Telefono
+public class Telefono
 {
     public int Id { get; set; }
 

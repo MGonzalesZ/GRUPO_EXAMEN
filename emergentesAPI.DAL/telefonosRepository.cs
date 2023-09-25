@@ -47,23 +47,5 @@ namespace emergentesAPI.DAL
         //    _dbContext.SaveChanges();
         //}
 
-
-<<<<<<< HEAD
-
-
-
-
-=======
-        //public List<Usuario> ObtenerTodos()
-        //{
-        //    //IQueryable<Usuario> queryUsuarioSQL = _dbContext.Usuarios;
-
-        //    return _dbContext.Usuarios.ToList();
-        //}
-        //public Usuario ObtenerPorId(int id)
-        //{
-        //    return _dbContext.Usuarios.FirstOrDefault(p => p.IdUsuario == id);
-        //}
->>>>>>> ff97e3f92a9f70ce7c70b0952e732ec7a6d0403b
     }
 }

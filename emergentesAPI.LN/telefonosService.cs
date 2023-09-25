@@ -17,9 +17,9 @@ namespace emergentesAPI.LN
         {
             _TelfRepository = telfRepository;
         }
-        public void Agregar(string nombre, string numeroTelefonico)
+        public Telefono Agregar(string nombre, string numeroTelefonico)
         {
-            _TelfRepository.Agregar(nombre, numeroTelefonico);
+            return _TelfRepository.Agregar(nombre, numeroTelefonico);
         }
 
  
@@ -28,5 +28,7 @@ namespace emergentesAPI.LN
         {
             _TelfRepository.Eliminar(id);
         }
+
+
     }
 }
