@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace emergentesAPI.ENTIDADES;
+namespace emergentesAPI.DAL.DataContext;
 
 public partial class DbA9f478TecemergContext : DbContext
 {
