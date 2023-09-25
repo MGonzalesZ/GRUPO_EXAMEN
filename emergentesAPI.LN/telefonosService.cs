@@ -28,6 +28,9 @@ namespace emergentesAPI.LN
         {
             _TelfRepository.Eliminar(id);
         }
-     
+     public List<Telefono> ObtenerTodos()
+        {
+            return  _TelfRepository.ObtenerTodos();
+        }
     }
 }
