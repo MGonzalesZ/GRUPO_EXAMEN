@@ -8,5 +8,6 @@ namespace emergentesAPI.LN
 {
     public class telefonosService
     {
+
     }
 }
