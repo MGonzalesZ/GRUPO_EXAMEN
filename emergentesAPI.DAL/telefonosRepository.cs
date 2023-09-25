@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using emergentesAPI.DAL;
 using emergentesAPI.DAL.DataContext;
-using emergentesAPI.ENTIDADES;
 
 namespace emergentesAPI.DAL
 {
